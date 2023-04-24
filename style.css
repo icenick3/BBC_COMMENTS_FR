@@ -1,0 +1,190 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+* {
+    margin: 0;
+
+
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+
+}
+
+header {
+    height: 64px;
+    max-width: 100vw;
+}
+
+header .userImg {
+    height: 100%;
+    position: relative;
+    padding: 0 6%;
+}
+
+header .user {
+    height: 32px;
+    width: 32px;
+    display: block;
+    position: absolute;
+    top: 28%;
+}
+
+header .bbc {
+    height: 32px;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+}
+
+header .bbcImg {
+    width: 46%;
+    height: 100%;
+    position: relative;
+}
+
+header .searchImg {
+    height: 100%;
+    position: relative;
+}
+
+header .search {
+    width: 28px;
+    height: 29px;
+    position: absolute;
+    left: 52%;
+    top: -72%;
+}
+
+header .menuImg {
+    height: 100%;
+    position: relative;
+}
+
+header .menu {
+    width: 24px;
+    height: 22px;
+    position: absolute;
+    top: 33%;
+    left: -9%;
+}
+
+.newsBlock {
+    height: 56px;
+    background: #b80000;
+    margin: 0;
+}
+
+.news {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 1% auto 0 2%;
+}
+
+.btnImg {
+    width: 26px;
+    height: 26px;
+    filter: invert(99%) sepia(4%) saturate(551%) hue-rotate(217deg) brightness(116%) contrast(87%);
+    margin: -18% 0 0 90%;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+}
+
+.h1Text {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Montserrat Serif', sans-serif;
+    padding: 5% 8% 5% 10%;
+
+}
+
+.brain {
+    max-width: 100vw;
+    padding: 0 20px;
+    margin: 0;
+}
+
+
+
+p {
+    font-weight: 500;
+    font-family: "Montserrat", Arial, sans-serif;
+    padding: 10% 12% 0 12%;
+    line-height: 25px;
+}
+
+footer {
+    background-color: #4c4c4c;
+}
+
+ul {
+    width: content-box;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    padding: 0;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 6px auto;
+    height: 30px;
+}
+
+.ulBox {
+    display: flex;
+}
+
+.taper {
+    display: block;
+    width: 200px;
+    height: 49px;
+    background-color: #b80000;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin: 10% 0 0 12%;
+    text-align: center;
+    text-decoration: none;
+}
+.spaner {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.h4text {
+    margin-top: 3px;
+    color: white;
+    padding: 3px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
+}
