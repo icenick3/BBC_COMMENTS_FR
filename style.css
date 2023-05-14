@@ -1,13 +1,13 @@
 @import url("https://fonts.cdnfonts.com/css/montserrat");
-html{
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
+html {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
 }
 
-body
-{
+body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -123,11 +123,10 @@ header .menu {
 }
 
 .brain {
-    max-width: 100vw;
+    max-width: 100%;
     padding: 0 20px;
     margin: 0;
 }
-
 
 
 p {
@@ -175,6 +174,7 @@ ul li {
     text-align: center;
     text-decoration: none;
 }
+
 .spaner {
     display: block;
     padding: 10px;
@@ -188,3 +188,148 @@ ul li {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 15px;
 }
+
+.comments {
+    overflow: auto;
+    height: 500px;
+}
+
+.countComments {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.commentContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.name {
+    margin: 0 0 0 20px;
+    padding: 0;
+    color: #909092;
+    font-size: 12px;
+    font-family: 'Asap', sans-serif;
+}
+
+.text {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-family: "Asap", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #565555;
+    line-height: 15px;
+}
+
+.addComment {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    padding: 10px 14px;
+    border: none;
+    width: 100%;
+    min-height: 30px;
+    outline: none;
+}
+
+.send {
+    width: 35px;
+    height: 35px;
+    margin: 23px 0 0 15px;
+    display: none;
+}
+
+
+
+.photo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+}
+
+.butLike {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.like {
+
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+    background: no-repeat;
+}
+
+.numLikes {
+    text-align: center;
+    font-size: 12px;
+    padding: 0;
+}
+
+.filter {
+    filter: invert(14%) sepia(98%) saturate(7494%) hue-rotate(0deg) brightness(111%) contrast(106%);
+}
+
+.likeStatistic {
+    width: 100%;
+    height: 50px;
+}
+
+#Pop-up {
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: black;
+    opacity: 0.9;
+    bottom: -100%;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.username {
+    display: block;
+    margin: 40vh auto 0 auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type=file] {
+    margin: 5% 10% ;
+}
+
+.sendMessage {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+
+.active {
+    display: block;
+}
+
+#Pop-up.activeForm {
+    bottom: 0;
+
+}
+
